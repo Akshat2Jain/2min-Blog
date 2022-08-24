@@ -42,7 +42,17 @@
   margin-top: 0px;
   line-height: 1.8em;
 }
+.blog-desc3 {
+  padding: 1.5rem;
+  margin-top: 0px;
+  line-height: 1.8em;
+}
 .footer{
   text-align: center;
   padding: 2rem;
+}
+.share-btn{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
 }
