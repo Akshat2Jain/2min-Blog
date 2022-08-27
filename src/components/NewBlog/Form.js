@@ -19,7 +19,6 @@ const Form = () => {
     useEffect(() => {
       alert("This page is in progress.Please come later")
     }, [])
-    
   return (
     <div className='form'>
         <div className='progressbar'></div>
