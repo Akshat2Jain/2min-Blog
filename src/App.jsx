@@ -4,6 +4,7 @@ import "./App.css";
 import Blog from "./pages/Blog";
 import Home from "./pages/Home";
 import Navbar from "./components/Navbar/Navbar";
+import Form from "./components/NewBlog/Form";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/blog/:id" component={Blog} />
+        <Route path="/AddBlog" component={Form}/>
         <Redirect to="/" />
       </Switch>
     </div>
