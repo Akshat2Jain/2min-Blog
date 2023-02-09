@@ -51,4 +51,22 @@ export const blogList = [
     cover: "/assets/images/designer-1.jpg",
     url: window.location.href,
   },
-];
+  {
+    id: 4,
+    title: "Why did The Batman(2022) astonish me so much?",
+    category: "Entertainment",
+    subCategory: ["Entertainment", "Hollywood"],
+    description:
+      "Compared to other movies/studios, Batman was something DC has always been proud of. Although it is not the only classic film that DC has created yet, but bro I was so taken aback by The Batman(2022) that I can now confidently proclaim it to be the best Batman film to date in the series",
+    description2:
+      "Everything—including the cinematography, visuals, and plot—met expectations. The one film with a distinctive and impactful opening that I can watch every day.Last but not least, the dialogue in this Batman was literally unbeatable and gave me chills every time I listened to it.Simply said, it's the best movie ever made, which is why I'm included it on my list of the top 5 films ever made.",
+    description3:
+      " I hope you like this blog and if you like this blog share it with your friends.",
+    footer: "See Ya in Glory 😊",
+    authorName: "Akshat Jain",
+    authorAvatar: "/assets/images/author.jpg",
+    createdAt: "Feb 9 , 2023",
+    cover: "https://media.timeout.com/images/105805277/750/422/image.jpg",
+    url: window.location.href,
+  },
+  ];
