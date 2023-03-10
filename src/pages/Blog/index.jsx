@@ -5,6 +5,7 @@ import Chip from "../../components/common/Chip";
 import EmptyList from "../../components/common/EmptyList";
 import "./styles.css";
 import { Link } from "react-router-dom";
+import { LikeButton } from "@lyket/react";
 import {
   LinkedinShareButton,
   TwitterShareButton,
@@ -50,6 +51,9 @@ const Blog = () => {
           <p className="blog-desc3">{blog.description3}</p>
 
           <h3 className="footer">{blog.footer}</h3>
+          <div className="like">
+          <LikeButton id="how-to-reduce-footprint" namespace="post" />
+          </div>
           <div className="share-btn">
             <TwitterShareButton url={blog.url} title={blog.title}>
               <TwitterIcon size={50} round={true} />
